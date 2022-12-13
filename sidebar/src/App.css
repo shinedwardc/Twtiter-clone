@@ -1,0 +1,46 @@
+body  {
+  font-family: 'Roboto';
+}
+
+.dark {
+  background-color: #333;
+  color: #fff
+}
+
+.light {
+  background-color: #fff;
+  color: #333
+}
+
+.sidebar{
+  width: 250px;
+  min-width: 250px;
+  padding: 20px 20px;
+  margin: 20px auto 0 auto;
+  box-shadow: 0 0 6px hsl(210 14% 90%);
+}
+
+.link{
+  display: flex;
+  align-items: cover;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.link:hover{
+  background-color: #a0a9af;
+  transition: color 100ms ease-out;
+}
+.link > h2{
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.link > .MuiSvgIcon-root {
+  padding: 20px;
+}
+
+.Button {
+  text-align: center;
+  padding: 10px;
+}
